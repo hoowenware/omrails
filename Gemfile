@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
+# Enable all platform features. See https://devcenter.heroku.com/articles/ruby-versions for more information.
+gem 'rails_12factor'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
